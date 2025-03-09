@@ -1,0 +1,11 @@
+grade = int(input("State your grade: "))
+if grade <= 100:
+    print("Grade:A")
+elif grade <= 89:
+    print("Grade:B")
+elif grade <= 79:
+    print("Grade:C")
+elif grade <= 69:
+    print("Grade:D")
+else:
+    print("Grade:F")
